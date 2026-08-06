@@ -1,0 +1,6 @@
+node_modules/
+public/audio/
+public/renders/
+out/
+dist/
+*.tsbuildinfo

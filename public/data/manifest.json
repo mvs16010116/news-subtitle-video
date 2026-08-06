@@ -1,0 +1,799 @@
+{
+  "title": "news",
+  "segments": [
+    {
+      "id": 0,
+      "text": "今天上午，",
+      "lines": [
+        "今天上午，"
+      ],
+      "audioFile": "audio/screen-0.mp3",
+      "durationSeconds": 1.08,
+      "words": [
+        {
+          "text": "今天",
+          "offset": 1055410,
+          "duration": 3194580
+        },
+        {
+          "text": "上午",
+          "offset": 4388750,
+          "duration": 4861250
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "北京市政府发布了",
+      "lines": [
+        "北京市政府发布",
+        "了"
+      ],
+      "audioFile": "audio/screen-1.mp3",
+      "durationSeconds": 1.704,
+      "words": [
+        {
+          "text": "北京市",
+          "offset": 0,
+          "duration": 5416660
+        },
+        {
+          "text": "政府",
+          "offset": 5555420,
+          "duration": 5277910
+        },
+        {
+          "text": "发布",
+          "offset": 11805420,
+          "duration": 3472080
+        },
+        {
+          "text": "了",
+          "offset": 15277500,
+          "duration": 1388750
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "新的经济政策。",
+      "lines": [
+        "新的经济政策。"
+      ],
+      "audioFile": "audio/screen-2.mp3",
+      "durationSeconds": 1.992,
+      "words": [
+        {
+          "text": "新",
+          "offset": 0,
+          "duration": 3055410
+        },
+        {
+          "text": "的",
+          "offset": 3055830,
+          "duration": 1944580
+        },
+        {
+          "text": "经济",
+          "offset": 5277920,
+          "duration": 3472080
+        },
+        {
+          "text": "政策",
+          "offset": 8889170,
+          "duration": 4583330
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "这项政策旨在支持",
+      "lines": [
+        "这项政策旨在支",
+        "持"
+      ],
+      "audioFile": "audio/screen-3.mp3",
+      "durationSeconds": 1.92,
+      "words": [
+        {
+          "text": "这",
+          "offset": 0,
+          "duration": 2222080
+        },
+        {
+          "text": "项",
+          "offset": 2222500,
+          "duration": 1805410
+        },
+        {
+          "text": "政策",
+          "offset": 4166660,
+          "duration": 4722080
+        },
+        {
+          "text": "旨在",
+          "offset": 9861250,
+          "duration": 4166660
+        },
+        {
+          "text": "支持",
+          "offset": 14166660,
+          "duration": 4722080
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "中小企业的发展。",
+      "lines": [
+        "中小企业的发展",
+        "。"
+      ],
+      "audioFile": "audio/screen-4.mp3",
+      "durationSeconds": 2.016,
+      "words": [
+        {
+          "text": "中小企业",
+          "offset": 0,
+          "duration": 8194580
+        },
+        {
+          "text": "的",
+          "offset": 8194590,
+          "duration": 833330
+        },
+        {
+          "text": "发展",
+          "offset": 9166670,
+          "duration": 4583330
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "根据规划，",
+      "lines": [
+        "根据规划，"
+      ],
+      "audioFile": "audio/screen-5.mp3",
+      "durationSeconds": 0.96,
+      "words": [
+        {
+          "text": "根据",
+          "offset": 0,
+          "duration": 3194580
+        },
+        {
+          "text": "规划",
+          "offset": 3333330,
+          "duration": 4861250
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "未来三年将投",
+      "lines": [
+        "未来三年将投"
+      ],
+      "audioFile": "audio/screen-6.mp3",
+      "durationSeconds": 1.464,
+      "words": [
+        {
+          "text": "未来",
+          "offset": 0,
+          "duration": 3055410
+        },
+        {
+          "text": "三",
+          "offset": 3194170,
+          "duration": 2361250
+        },
+        {
+          "text": "年",
+          "offset": 5555420,
+          "duration": 2500000
+        },
+        {
+          "text": "将",
+          "offset": 8333340,
+          "duration": 2083330
+        },
+        {
+          "text": "投入",
+          "offset": 10555420,
+          "duration": 3888750
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "入两千亿元，",
+      "lines": [
+        "入两千亿元，"
+      ],
+      "audioFile": "audio/screen-7.mp3",
+      "durationSeconds": 1.032,
+      "words": [
+        {
+          "text": "投入",
+          "offset": -4166670,
+          "duration": 3888750
+        },
+        {
+          "text": "两千亿",
+          "offset": 0,
+          "duration": 5555410
+        },
+        {
+          "text": "元",
+          "offset": 5555410,
+          "duration": 3055410
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "用于减税降费",
+      "lines": [
+        "用于减税降费"
+      ],
+      "audioFile": "audio/screen-8.mp3",
+      "durationSeconds": 1.488,
+      "words": [
+        {
+          "text": "用于",
+          "offset": 0,
+          "duration": 4444580
+        },
+        {
+          "text": "减税",
+          "offset": 4722090,
+          "duration": 4027910
+        },
+        {
+          "text": "降费",
+          "offset": 8888750,
+          "duration": 5000000
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "和产业升级。",
+      "lines": [
+        "和产业升级。"
+      ],
+      "audioFile": "audio/screen-9.mp3",
+      "durationSeconds": 1.872,
+      "words": [
+        {
+          "text": "和",
+          "offset": 0,
+          "duration": 2638750
+        },
+        {
+          "text": "产业",
+          "offset": 2777500,
+          "duration": 4027910
+        },
+        {
+          "text": "升级",
+          "offset": 6944170,
+          "duration": 5416660
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "专家表示，",
+      "lines": [
+        "专家表示，"
+      ],
+      "audioFile": "audio/screen-10.mp3",
+      "durationSeconds": 1.056,
+      "words": [
+        {
+          "text": "专家",
+          "offset": 0,
+          "duration": 3611250
+        },
+        {
+          "text": "表示",
+          "offset": 3750000,
+          "duration": 4583330
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "政策的落地将显著",
+      "lines": [
+        "政策的落地将显",
+        "著"
+      ],
+      "audioFile": "audio/screen-11.mp3",
+      "durationSeconds": 1.896,
+      "words": [
+        {
+          "text": "政策",
+          "offset": 0,
+          "duration": 4305410
+        },
+        {
+          "text": "的",
+          "offset": 4305420,
+          "duration": 1111250
+        },
+        {
+          "text": "落地",
+          "offset": 5555420,
+          "duration": 4861250
+        },
+        {
+          "text": "将",
+          "offset": 11388750,
+          "duration": 1944580
+        },
+        {
+          "text": "显著",
+          "offset": 13472080,
+          "duration": 5277910
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "改善营商环境。",
+      "lines": [
+        "改善营商环境。"
+      ],
+      "audioFile": "audio/screen-12.mp3",
+      "durationSeconds": 1.992,
+      "words": [
+        {
+          "text": "改善",
+          "offset": 0,
+          "duration": 4861250
+        },
+        {
+          "text": "营商",
+          "offset": 5139170,
+          "duration": 3888750
+        },
+        {
+          "text": "环境",
+          "offset": 9166670,
+          "duration": 4444580
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "此外，相关部门还将简",
+      "lines": [
+        "此外，相关部门",
+        "还将简"
+      ],
+      "audioFile": "audio/screen-13.mp3",
+      "durationSeconds": 2.088,
+      "words": [
+        {
+          "text": "此外",
+          "offset": 0,
+          "duration": 4305410
+        },
+        {
+          "text": "相关",
+          "offset": 5555420,
+          "duration": 3611250
+        },
+        {
+          "text": "部门",
+          "offset": 9305420,
+          "duration": 3055410
+        },
+        {
+          "text": "还",
+          "offset": 12638750,
+          "duration": 1666660
+        },
+        {
+          "text": "将",
+          "offset": 14305420,
+          "duration": 1666660
+        },
+        {
+          "text": "简化",
+          "offset": 16111250,
+          "duration": 4444580
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "化审批流程，",
+      "lines": [
+        "化审批流程，"
+      ],
+      "audioFile": "audio/screen-14.mp3",
+      "durationSeconds": 1.08,
+      "words": [
+        {
+          "text": "简化",
+          "offset": -4722080,
+          "duration": 4444580
+        },
+        {
+          "text": "审批",
+          "offset": 0,
+          "duration": 4305410
+        },
+        {
+          "text": "流程",
+          "offset": 4444590,
+          "duration": 4861250
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "降低创业门槛。",
+      "lines": [
+        "降低创业门槛。"
+      ],
+      "audioFile": "audio/screen-15.mp3",
+      "durationSeconds": 1.992,
+      "words": [
+        {
+          "text": "降低",
+          "offset": 0,
+          "duration": 5138750
+        },
+        {
+          "text": "创业",
+          "offset": 5416660,
+          "duration": 3055410
+        },
+        {
+          "text": "门槛",
+          "offset": 8611250,
+          "duration": 4861250
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "多位企业家对",
+      "lines": [
+        "多位企业家对"
+      ],
+      "audioFile": "audio/screen-16.mp3",
+      "durationSeconds": 1.008,
+      "words": [
+        {
+          "text": "多",
+          "offset": 0,
+          "duration": 1805410
+        },
+        {
+          "text": "位",
+          "offset": 1805410,
+          "duration": 1666660
+        },
+        {
+          "text": "企业家",
+          "offset": 3610830,
+          "duration": 4861250
+        },
+        {
+          "text": "对",
+          "offset": 8750000,
+          "duration": 1527500
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "此表示欢迎，",
+      "lines": [
+        "此表示欢迎，"
+      ],
+      "audioFile": "audio/screen-17.mp3",
+      "durationSeconds": 1.416,
+      "words": [
+        {
+          "text": "此",
+          "offset": 0,
+          "duration": 2916660
+        },
+        {
+          "text": "表示",
+          "offset": 3194580,
+          "duration": 2916660
+        },
+        {
+          "text": "欢迎",
+          "offset": 6250000,
+          "duration": 5833330
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "认为这释放了",
+      "lines": [
+        "认为这释放了"
+      ],
+      "audioFile": "audio/screen-18.mp3",
+      "durationSeconds": 1.128,
+      "words": [
+        {
+          "text": "认为",
+          "offset": 0,
+          "duration": 3888750
+        },
+        {
+          "text": "这",
+          "offset": 4027920,
+          "duration": 1527910
+        },
+        {
+          "text": "释放",
+          "offset": 5555840,
+          "duration": 3750000
+        },
+        {
+          "text": "了",
+          "offset": 9305840,
+          "duration": 1527910
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "积极的信号。",
+      "lines": [
+        "积极的信号。"
+      ],
+      "audioFile": "audio/screen-19.mp3",
+      "durationSeconds": 1.56,
+      "words": [
+        {
+          "text": "积极",
+          "offset": 0,
+          "duration": 3750000
+        },
+        {
+          "text": "的",
+          "offset": 3750000,
+          "duration": 833330
+        },
+        {
+          "text": "信号",
+          "offset": 4722090,
+          "duration": 4583330
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "下一步，政府将成立专",
+      "lines": [
+        "下一步，政府将",
+        "成立专"
+      ],
+      "audioFile": "audio/screen-20.mp3",
+      "durationSeconds": 2.256,
+      "words": [
+        {
+          "text": "下一步",
+          "offset": 0,
+          "duration": 5833330
+        },
+        {
+          "text": "政府",
+          "offset": 7083330,
+          "duration": 5138750
+        },
+        {
+          "text": "将",
+          "offset": 12360830,
+          "duration": 2083330
+        },
+        {
+          "text": "成立",
+          "offset": 14583330,
+          "duration": 3333330
+        },
+        {
+          "text": "专项",
+          "offset": 18194160,
+          "duration": 4166660
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "项工作组，",
+      "lines": [
+        "项工作组，"
+      ],
+      "audioFile": "audio/screen-21.mp3",
+      "durationSeconds": 0.84,
+      "words": [
+        {
+          "text": "专项",
+          "offset": -4305840,
+          "duration": 4166660
+        },
+        {
+          "text": "工作组",
+          "offset": 0,
+          "duration": 6944580
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "负责监督政策",
+      "lines": [
+        "负责监督政策"
+      ],
+      "audioFile": "audio/screen-22.mp3",
+      "durationSeconds": 1.272,
+      "words": [
+        {
+          "text": "负责",
+          "offset": 0,
+          "duration": 4305410
+        },
+        {
+          "text": "监督",
+          "offset": 4444170,
+          "duration": 4166660
+        },
+        {
+          "text": "政策",
+          "offset": 8888750,
+          "duration": 3888750
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "的执行情况。",
+      "lines": [
+        "的执行情况。"
+      ],
+      "audioFile": "audio/screen-23.mp3",
+      "durationSeconds": 1.656,
+      "words": [
+        {
+          "text": "的",
+          "offset": 0,
+          "duration": 1805410
+        },
+        {
+          "text": "执行",
+          "offset": 2083330,
+          "duration": 3333330
+        },
+        {
+          "text": "情况",
+          "offset": 5555830,
+          "duration": 4861250
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "他们承诺，",
+      "lines": [
+        "他们承诺，"
+      ],
+      "audioFile": "audio/screen-24.mp3",
+      "durationSeconds": 0.936,
+      "words": [
+        {
+          "text": "他们",
+          "offset": 0,
+          "duration": 3194580
+        },
+        {
+          "text": "承诺",
+          "offset": 3333330,
+          "duration": 4444580
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "将确保每一笔资金",
+      "lines": [
+        "将确保每一笔资",
+        "金"
+      ],
+      "audioFile": "audio/screen-25.mp3",
+      "durationSeconds": 1.728,
+      "words": [
+        {
+          "text": "将",
+          "offset": 0,
+          "duration": 2777910
+        },
+        {
+          "text": "确保",
+          "offset": 2916670,
+          "duration": 3750000
+        },
+        {
+          "text": "每",
+          "offset": 6944170,
+          "duration": 1805410
+        },
+        {
+          "text": "一",
+          "offset": 8750000,
+          "duration": 1527500
+        },
+        {
+          "text": "笔",
+          "offset": 10277500,
+          "duration": 1527910
+        },
+        {
+          "text": "资金",
+          "offset": 11944170,
+          "duration": 4305410
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "都用在刀刃上。",
+      "lines": [
+        "都用在刀刃上。"
+      ],
+      "audioFile": "audio/screen-26.mp3",
+      "durationSeconds": 1.872,
+      "words": [
+        {
+          "text": "都",
+          "offset": 0,
+          "duration": 1944580
+        },
+        {
+          "text": "用",
+          "offset": 1944590,
+          "duration": 1666660
+        },
+        {
+          "text": "在",
+          "offset": 3611250,
+          "duration": 2222080
+        },
+        {
+          "text": "刀刃",
+          "offset": 6111250,
+          "duration": 3750000
+        },
+        {
+          "text": "上",
+          "offset": 9861250,
+          "duration": 2777910
+        }
+      ]
+    }
+  ],
+  "config": {
+    "videoWidth": 1080,
+    "videoHeight": 1920,
+    "fps": 60,
+    "leadInSeconds": 0.8,
+    "leadOutSeconds": 1.6,
+    "screenGapSeconds": 0,
+    "wordHighlightLeadMs": 100,
+    "wordHighlightLagMs": 150
+  }
+}
