@@ -3,9 +3,9 @@
   "segments": [
     {
       "id": 0,
-      "text": "今天上午，",
+      "text": "今天上午 ",
       "lines": [
-        "今天上午，"
+        "今天上午 "
       ],
       "audioFile": "audio/screen-0.mp3",
       "durationSeconds": 1.08,
@@ -56,9 +56,9 @@
     },
     {
       "id": 2,
-      "text": "新的经济政策。",
+      "text": "新的经济政策 ",
       "lines": [
-        "新的经济政策。"
+        "新的经济政策 "
       ],
       "audioFile": "audio/screen-2.mp3",
       "durationSeconds": 1.992,
@@ -124,10 +124,10 @@
     },
     {
       "id": 4,
-      "text": "中小企业的发展。",
+      "text": "中小企业的发展 ",
       "lines": [
         "中小企业的发展",
-        "。"
+        " "
       ],
       "audioFile": "audio/screen-4.mp3",
       "durationSeconds": 2.016,
@@ -151,9 +151,9 @@
     },
     {
       "id": 5,
-      "text": "根据规划，",
+      "text": "根据规划 ",
       "lines": [
-        "根据规划，"
+        "根据规划 "
       ],
       "audioFile": "audio/screen-5.mp3",
       "durationSeconds": 0.96,
@@ -208,9 +208,9 @@
     },
     {
       "id": 7,
-      "text": "入两千亿元，",
+      "text": "入两千亿元 ",
       "lines": [
-        "入两千亿元，"
+        "入两千亿元 "
       ],
       "audioFile": "audio/screen-7.mp3",
       "durationSeconds": 1.032,
@@ -260,9 +260,9 @@
     },
     {
       "id": 9,
-      "text": "和产业升级。",
+      "text": "和产业升级 ",
       "lines": [
-        "和产业升级。"
+        "和产业升级 "
       ],
       "audioFile": "audio/screen-9.mp3",
       "durationSeconds": 1.872,
@@ -286,9 +286,9 @@
     },
     {
       "id": 10,
-      "text": "专家表示，",
+      "text": "专家表示 ",
       "lines": [
-        "专家表示，"
+        "专家表示 "
       ],
       "audioFile": "audio/screen-10.mp3",
       "durationSeconds": 1.056,
@@ -344,9 +344,9 @@
     },
     {
       "id": 12,
-      "text": "改善营商环境。",
+      "text": "改善营商环境 ",
       "lines": [
-        "改善营商环境。"
+        "改善营商环境 "
       ],
       "audioFile": "audio/screen-12.mp3",
       "durationSeconds": 1.992,
@@ -370,9 +370,9 @@
     },
     {
       "id": 13,
-      "text": "此外，相关部门还将简",
+      "text": "此外 相关部门还将简",
       "lines": [
-        "此外，相关部门",
+        "此外 相关部门",
         "还将简"
       ],
       "audioFile": "audio/screen-13.mp3",
@@ -412,9 +412,9 @@
     },
     {
       "id": 14,
-      "text": "化审批流程，",
+      "text": "化审批流程 ",
       "lines": [
-        "化审批流程，"
+        "化审批流程 "
       ],
       "audioFile": "audio/screen-14.mp3",
       "durationSeconds": 1.08,
@@ -438,9 +438,9 @@
     },
     {
       "id": 15,
-      "text": "降低创业门槛。",
+      "text": "降低创业门槛 ",
       "lines": [
-        "降低创业门槛。"
+        "降低创业门槛 "
       ],
       "audioFile": "audio/screen-15.mp3",
       "durationSeconds": 1.992,
@@ -495,9 +495,9 @@
     },
     {
       "id": 17,
-      "text": "此表示欢迎，",
+      "text": "此表示欢迎 ",
       "lines": [
-        "此表示欢迎，"
+        "此表示欢迎 "
       ],
       "audioFile": "audio/screen-17.mp3",
       "durationSeconds": 1.416,
@@ -552,9 +552,9 @@
     },
     {
       "id": 19,
-      "text": "积极的信号。",
+      "text": "积极的信号 ",
       "lines": [
-        "积极的信号。"
+        "积极的信号 "
       ],
       "audioFile": "audio/screen-19.mp3",
       "durationSeconds": 1.56,
@@ -578,9 +578,9 @@
     },
     {
       "id": 20,
-      "text": "下一步，政府将成立专",
+      "text": "下一步 政府将成立专",
       "lines": [
-        "下一步，政府将",
+        "下一步 政府将",
         "成立专"
       ],
       "audioFile": "audio/screen-20.mp3",
@@ -615,9 +615,9 @@
     },
     {
       "id": 21,
-      "text": "项工作组，",
+      "text": "项工作组 ",
       "lines": [
-        "项工作组，"
+        "项工作组 "
       ],
       "audioFile": "audio/screen-21.mp3",
       "durationSeconds": 0.84,
@@ -662,9 +662,9 @@
     },
     {
       "id": 23,
-      "text": "的执行情况。",
+      "text": "的执行情况 ",
       "lines": [
-        "的执行情况。"
+        "的执行情况 "
       ],
       "audioFile": "audio/screen-23.mp3",
       "durationSeconds": 1.656,
@@ -688,9 +688,9 @@
     },
     {
       "id": 24,
-      "text": "他们承诺，",
+      "text": "他们承诺 ",
       "lines": [
-        "他们承诺，"
+        "他们承诺 "
       ],
       "audioFile": "audio/screen-24.mp3",
       "durationSeconds": 0.936,
@@ -751,9 +751,9 @@
     },
     {
       "id": 26,
-      "text": "都用在刀刃上。",
+      "text": "都用在刀刃上 ",
       "lines": [
-        "都用在刀刃上。"
+        "都用在刀刃上 "
       ],
       "audioFile": "audio/screen-26.mp3",
       "durationSeconds": 1.872,

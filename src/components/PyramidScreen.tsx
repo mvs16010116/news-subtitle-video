@@ -21,33 +21,36 @@ import type { Segment, TtsWord } from "../manifest";
 import type { TimelineSegment } from "../manifest";
 
 const BASE_FONT = 260;
-const GAP_WIDTH = 8;
-const LINE_HEIGHT_RATIO = 1.15;
-const LINE_GAP_RATIO = 0.35;
+const GAP_WIDTH = 10;
+const LINE_HEIGHT_RATIO = 1.18;
+const LINE_GAP_RATIO = 0.55;
 const AVAILABLE_WIDTH = VIDEO_WIDTH - 120;
 
-// layered shadows: a tight white halo thickens the glyph, then a hard solid
-// backing + soft falloff gives the "solid, full" look over bright backgrounds
+// layered shadows: a tight white halo thickens the glyph, a soft black outline
+// keeps edges readable over bright backgrounds, then a hard solid backing +
+// soft falloff gives the "solid, full" look
 const TEXT_SHADOW = [
   "0 0 0.025em rgba(255,255,255,0.55)",
-  "0 0.03em 0 rgba(0,0,0,0.85)",
-  "0 0.07em 0.035em rgba(0,0,0,0.7)",
-  "0 0.14em 0.07em rgba(0,0,0,0.5)",
-  "0 0.25em 0.12em rgba(0,0,0,0.35)",
+  "0 0 0.05em rgba(0,0,0,0.7)",
+  "0 0.05em 0 rgba(0,0,0,0.9)",
+  "0 0.09em 0.045em rgba(0,0,0,0.7)",
+  "0 0.16em 0.08em rgba(0,0,0,0.5)",
+  "0 0.28em 0.14em rgba(0,0,0,0.35)",
 ].join(", ");
 
 const ACTIVE_TEXT_SHADOW = [
   "0 0 0.05em #FFE566cc",
   "0 0 0.16em #FFE56655",
-  "0 0.03em 0 rgba(0,0,0,0.85)",
-  "0 0.07em 0.035em rgba(0,0,0,0.7)",
-  "0 0.14em 0.07em rgba(0,0,0,0.5)",
-  "0 0.25em 0.12em rgba(0,0,0,0.35)",
+  "0 0 0.05em rgba(0,0,0,0.7)",
+  "0 0.05em 0 rgba(0,0,0,0.9)",
+  "0 0.09em 0.045em rgba(0,0,0,0.7)",
+  "0 0.16em 0.08em rgba(0,0,0,0.5)",
+  "0 0.28em 0.14em rgba(0,0,0,0.35)",
 ].join(", ");
 
 // same-color stroke thickens the already-heavy Black glyphs into a fuller shape
 const strokeWidthFor = (fontSize: number): number =>
-  Math.max(2, Math.round(fontSize * 0.04));
+  Math.max(2, Math.round(fontSize * 0.06));
 
 type CharToken = {
   char: string;
@@ -122,7 +125,7 @@ const blockHeight = (segment: Segment, fontSize: number): number => {
 // down, and upcoming sentences stack above it, shrinking as they go up. the
 // tier-1 bases touch the reading block's top/bottom, so the two pyramids join
 // at the reading slot. actual block heights keep the anchors continuous
-const TIER_SEP = 26;
+const TIER_SEP = 46;
 
 const readingTopOf = (segment: Segment): number =>
   PYRAMID_READING_Y - blockHeight(segment, readingFontFor(segment)) / 2;

@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync, existsSync, renameSync } from "node:fs";
 import { join, resolve, basename } from "node:path";
 import { pathToFileURL } from "node:url";
 import { Input, ALL_FORMATS, FilePathSource } from "mediabunny";
@@ -31,11 +31,17 @@ const config = {
   rate: "-10%",
 };
 
-const { buildScreens } = await import(pathToFileURL(join(root, "src", "splitting.ts")).href);
+const { buildScreens, layoutLines } = await import(pathToFileURL(join(root, "src", "splitting.ts")).href);
 
 const raw = readFileSync(txtPath, "utf8");
 const screens = buildScreens(raw);
 console.log(`text: ${raw.length} chars -> ${screens.length} screens`);
+
+// the on-screen subtitle drops punctuation (rendered as spaces) while the TTS
+// keeps the original text so speech pauses stay natural
+const DISPLAY_PUNCT = /[，。！？!?；;、：:]/g;
+const displayTexts = screens.map((s) => s.text.replace(DISPLAY_PUNCT, " "));
+const displayLines = displayTexts.map((text) => layoutLines(text));
 
 // synthesize the whole text in ONE pass so speech is a single continuous
 // utterance (no forced pauses between screens); then slice it per screen at
@@ -162,14 +168,14 @@ for (let i = 0; i < screens.length; i++) {
 
   segments.push({
     id: screen.id,
-    text: screen.text,
-    lines: screen.lines,
+    text: displayTexts[i],
+    lines: displayLines[i],
     audioFile: `audio/screen-${screen.id}.mp3`,
     durationSeconds,
     words,
   });
   console.log(
-    `  screen ${screen.id}: "${screen.text}" (${durationSeconds.toFixed(2)}s, ${words.length} words)`,
+    `  screen ${screen.id}: "${displayTexts[i]}" (${durationSeconds.toFixed(2)}s, ${words.length} words)`,
   );
 }
 
@@ -207,4 +213,28 @@ execFileSync(
   ["remotion", "render", "NewsVideo", outFile, "--codec", "h264"],
   { stdio: "inherit", cwd: root },
 );
+
+// loudness-normalize the final mix (EBU R128): the TTS peaks near -1 dBFS but
+// its average sits ~-31 dB, so a plain gain would clip. loudnorm raises the
+// perceived loudness while capping true peak, preserving internal timing.
+const normFile = `${outFile}.norm.mp4`;
+execFileSync(
+  FFMPEG,
+  [
+    "-y",
+    "-i",
+    outFile,
+    "-af",
+    "loudnorm=I=-14:TP=-1.5:LRA=11",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    normFile,
+  ],
+  { stdio: "inherit" },
+);
+renameSync(normFile, outFile);
 console.log(`done: ${outFile}`);
